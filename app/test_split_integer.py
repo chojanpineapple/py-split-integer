@@ -34,4 +34,8 @@ def test_should_add_zeros_when_value_is_less_than_number_of_parts() -> None:
     parts = 5
     result = split_integer(value, parts)
 
-    assert len(result) == parts; assert sum(result) == value; assert result == [0, 0, 1, 1, 1]
+    assert (
+        len(result) == parts
+        sum(result) == value 
+        result == [0, 0, 1, 1, 1]
+        )
