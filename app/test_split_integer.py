@@ -36,6 +36,6 @@ def test_should_add_zeros_when_value_is_less_than_number_of_parts() -> None:
 
     assert (
         len(result) == parts
-        sum(result) == value 
-        result == [0, 0, 1, 1, 1]
-        )
+        and sum(result) == value
+        and result == [0, 0, 1, 1, 1]
+    )
